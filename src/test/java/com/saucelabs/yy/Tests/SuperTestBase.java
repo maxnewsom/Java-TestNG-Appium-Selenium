@@ -27,8 +27,8 @@ public class SuperTestBase implements ITestListener {
 
     public URL createDriverURL(Region region) throws MalformedURLException {
         switch (region) {
-            case EU:
-                return new URL("https://" + username + ":" + accesskey + Region.EU.hub);
+//             case EU:
+//                 return new URL("https://" + username + ":" + accesskey + Region.EU.hub);
             case US:
                 return new URL("https://" + username + ":" + accesskey + Region.US.hub);
             case APAC:
