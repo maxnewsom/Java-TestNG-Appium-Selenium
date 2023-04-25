@@ -35,6 +35,6 @@ public enum Region {
     }
 
     public static Region fromString(String region) {
-        return Stream.of(values()).filter(dc -> dc.name().equalsIgnoreCase(region)).findFirst().orElse(EU);
+        return Stream.of(values()).filter(dc -> dc.name().equalsIgnoreCase(region)).findFirst(US).orElse(EU);
     }
 }
