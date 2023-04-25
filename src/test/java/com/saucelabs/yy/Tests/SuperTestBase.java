@@ -46,7 +46,7 @@ public class SuperTestBase implements ITestListener {
      * @throws MalformedURLException
      */
     public URL createDriverURL() throws MalformedURLException {
-        return createDriverURL(Region.EU);
+        return createDriverURL(Region.US);
     }
 
     public AndroidDriver getAndroidDriver() {
